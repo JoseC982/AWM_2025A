@@ -9,7 +9,7 @@ function showMenu(menu) {
     switch(menu) {
       case 'Inicio':
         menuContent.textContent = 'Bienvenido a la página de inicio de ñanEC.';
-        document.getElementById('intro').style.backgroundColor = '#f0f0f0';
+        document.getElementById('intro').style.backgroundColor = '#f0f0f0'; //getElementById permite 
         break;
       case 'Restaurantes':
         menuContent.textContent = 'Explora los mejores restaurantes de San José.';
