@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ñanEC - Gastronomía de San José</title>
   <link rel="stylesheet" href="styles.css">  <!-- hace referencia al archivo css-->
+
+  <style>
+    #listOrd {
+      
+      background-color: red; /* Cambia el color de fondo */
+    }
+  </style>
 </head>
 <body> <!-- todo lo que esta aqui si visualiza el usuario -->
   <header>
@@ -14,13 +21,19 @@
     <h4>Bienvenidos a ñanEC</h4>
     <h5>Bienvenidos a ñanEC</h5>
     <nav> <!-- seccion de botones de navegacion -->
-      <ul>  <!-- lista no ordenada -->
+      <ul id="listNoOrd">  <!-- lista no ordenada -->
         <li><a href="#" onclick="showMenu('Inicio')">Inicio</a></li>
         <li><a href="#" onclick="showMenu('Restaurantes')">Restaurantes</a></li>
         <li><a href="#" onclick="showMenu('Recetas')">Recetas</a></li>
         <li><a href="#" onclick="showMenu('Eventos')">Eventos</a></li>
       </ul>
-      <ol>
+      <ol style ="background-color: aqua;">
+        <li><a href="#" onclick="showMenu('Inicio')">Inicio</a></li>
+        <li><a href="#" onclick="showMenu('Restaurantes')">Restaurantes</a></li>
+        <li><a href="#" onclick="showMenu('Recetas')">Recetas</a></li>
+        <li><a href="#" onclick="showMenu('Eventos')">Eventos</a></li>
+      </ol>
+      <ol id="listOrd"">
         <li><a href="#" onclick="showMenu('Inicio')">Inicio</a></li>
         <li><a href="#" onclick="showMenu('Restaurantes')">Restaurantes</a></li>
         <li><a href="#" onclick="showMenu('Recetas')">Recetas</a></li>
